@@ -14,7 +14,6 @@ Based on the version of your Cloud Pak for Data cluster, you can download the cp
 
 Once you have downloaded cpd-cli extract it to a folder of your choice. Now using cmd or powershell (for windows) or Terminal (for MAC) change the directory to cpd-cli folder as shown below
 
-![image](https://user-images.githubusercontent.com/16270682/207261530-303a451d-7d75-4d33-9a44-df7cbc7d46e0.png)
-
+![image](https://user-images.githubusercontent.com/16270682/207262269-829404c8-8451-4911-8658-8ada7e25f209.png)
 
 
