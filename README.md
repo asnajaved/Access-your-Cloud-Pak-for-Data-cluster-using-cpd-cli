@@ -36,3 +36,26 @@ Use the below command and Paste the API key generated in previous step to create
 ./cpd-cli config users set cpd-admin-user --username admin --apikey api_key
 
 ```
+where cpd-admin-user is the name you will keep for new local user configuration.
+
+### 2.3 Set a new profile
+
+Create a new profile using the below command to store the Cloud Pak for Data URL and its association with the local configuration
+
+```
+./cpd-cli config profiles set cpd-admin-profile --user cpd-admin-user --url cpd-profile-url
+
+```
+
+where cpd-admin-profile is the name you will set for the new profile and cpd-profile-url is the Cloud Pak for Data user profile URL.
+
+##### Note: If you have multiple Cloud Pak for Data instances, you must set a new profile on every instance. You can also have profiles for other users in the same Cloud Pak for Data user profile URL.
+
+
+You can now run cpd-cli commands with this profile using the --profile flag. For example:
+
+```
+./cpd-cli service-instance list --profile cpd-admin-profile
+
+```
+
