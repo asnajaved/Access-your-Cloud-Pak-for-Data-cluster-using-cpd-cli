@@ -32,7 +32,7 @@ You will need an API key for user authentication. To generate api key go to **Pr
 
 Use the below command and Paste the API key generated in previous step to create a local user configuration for yourself.
 
-***
+```
 ./cpd-cli config users set cpd-admin-user --username admin --apikey api_key
 
-***
+```
