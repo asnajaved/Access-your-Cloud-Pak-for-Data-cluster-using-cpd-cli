@@ -22,4 +22,17 @@ Before you can run certain management tasks on your Cloud Pak for Data cluster, 
 
 ### 2.1 Generate API Key
 
-You will need an API key for user authentication 
+You will need an API key for user authentication. To generate api key go to **Profile and settings** page and click **generate api key**. This API key does not expire.
+
+![image](https://user-images.githubusercontent.com/16270682/207292743-9a43c235-c456-4ce5-a732-f4fc8867fe5f.png)
+
+<img width="1288" alt="image (1)" src="https://user-images.githubusercontent.com/16270682/207292951-e36f2a60-7558-411a-9764-dad849403dca.png">
+
+### 2.2 Create a local user 
+
+Use the below command and Paste the API key generated in previous step to create a local user configuration for yourself.
+
+***
+./cpd-cli config users set cpd-admin-user --username admin --apikey api_key
+
+***
