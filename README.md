@@ -32,14 +32,6 @@ You will need an API key for user authentication. To generate api key go to **Pr
 
 Use the below command and Paste the API key generated in previous step to create a local user configuration for yourself.
 
-## Resources
-
-To learn more about Cloud Pak for Data Command Line Interface visit https://www.ibm.com/docs/en/cloud-paks/cp-data/4.6.x?topic=administering-cpd-cli-cloud-pak-data-command-line-interface
-
-for Common administrative tasks https://www.ibm.com/docs/en/cloud-paks/cp-data/4.6.x?topic=interface-common-administrative-tasks
-
-
-
 ```
 ./cpd-cli config users set cpd-admin-user --username admin --apikey api_key
 
@@ -66,4 +58,10 @@ You can now run cpd-cli commands with this profile using the --profile flag. For
 ./cpd-cli service-instance list --profile cpd-admin-profile
 
 ```
+
+## Resources
+
+To learn more about Cloud Pak for Data Command Line Interface visit https://www.ibm.com/docs/en/cloud-paks/cp-data/4.6.x?topic=administering-cpd-cli-cloud-pak-data-command-line-interface
+
+for Common administrative tasks https://www.ibm.com/docs/en/cloud-paks/cp-data/4.6.x?topic=interface-common-administrative-tasks
 
