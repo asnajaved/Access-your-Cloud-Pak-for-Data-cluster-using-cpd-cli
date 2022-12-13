@@ -8,5 +8,12 @@ In this hands-on guide we will learn how to access your Cloud Pak for Data Clust
 
 ### 1.1 Downloading cpd-cli
 
-Based on the version of Cloud Pak for Data, you can download the cpd-cli command line utility from: https://github.com/IBM/cpd-cli/releases.
+Based on the version of your Cloud Pak for Data cluster, you can download the cpd-cli command line utility from: https://github.com/IBM/cpd-cli/releases.
+
+### 1.2 Changing directory
+
+Once you have downloaded cpd-cli extract it to a folder of your choice. Now using cmd or powershell (for windows) or Terminal (for MAC) change the directory to cpd-cli folder as shown below
+
+![image](https://user-images.githubusercontent.com/16270682/207261277-ded4d379-be7e-4801-8e1a-660019262325.png)
+
 
