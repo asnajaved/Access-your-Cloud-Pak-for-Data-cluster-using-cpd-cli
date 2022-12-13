@@ -16,4 +16,10 @@ Once you have downloaded cpd-cli extract it to a folder of your choice. Now usin
 
 ![image](https://user-images.githubusercontent.com/16270682/207262269-829404c8-8451-4911-8658-8ada7e25f209.png)
 
+## Step 2: Creating a profile
 
+Before you can run certain management tasks on your Cloud Pak for Data cluster, you must create a profile to run cpd-cli commands.
+
+### 2.1 Generate API Key
+
+You will need an API key for user authentication 
